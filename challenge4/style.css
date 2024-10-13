@@ -1,15 +1,42 @@
 /* Add your code in each class */
 body {
+  background-color: #220424;
 }
 .container {
 }
 .movie-card {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../assets/harrypotter.jpg);
+
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+  height: 344px;
+  width: 400px;
+  border-radius: 20px;
 }
 .movie-image {
 }
 .movie-details-container {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 .descriptions {
+}
+h1 {
+  text-shadow: 2px 2px red;
+  color: white;
+  font-weight: bold;
 }
 
 /*A gift from us!*/
